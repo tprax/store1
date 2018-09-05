@@ -1,2 +1,4 @@
 <h1><%= @department.name %></h1>
 
+<%= link_to "Items click here", department_item_path(@department) %>
+<%= link_to "Add items", new_department_item_path(@department) %>
